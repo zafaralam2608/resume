@@ -25,8 +25,11 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - run:  |
-          git config --global user.email "zafaralam2608@gmail.com"
-          git config --global user.name "Zafar"
           npm install
           npm run build
-          npm run deploy
+          
+    - name: Deploy
+      uses: JamesIves/github-pages-deploy-action@4.1.0
+      with:
+          branch: gh-pages
+          folder: build      
