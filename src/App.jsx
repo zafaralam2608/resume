@@ -1,5 +1,5 @@
 import './App.css';
-import {BrowserRouter, Link, Route, Switch} from "react-router-dom";
+import {BrowserRouter, Link, Redirect, Route, Switch} from "react-router-dom";
 import Skills from "./sections/Skills";
 import Home from "./sections/Home";
 import Experience from "./sections/Experience";
@@ -12,42 +12,43 @@ export default function App() {
         <BrowserRouter>
             <div>
                 <nav className="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
-                    <Link to="/" className="w3-bar-item w3-button w3-padding-large">
+                    <Link to="/0" className="w3-bar-item w3-button w3-padding-large">
                         <FontAwesomeIcon size={"4x"} icon={"home"}/>
                         <p>Home</p>
                     </Link>
-                    <Link to="/skills" className="w3-bar-item w3-button w3-padding-large">
+                    <Link to="/1" className="w3-bar-item w3-button w3-padding-large">
                         <FontAwesomeIcon size={"4x"} icon={"laptop-code"}/>
                         <p>Skills</p>
                     </Link>
-                    <Link to="/experience" className="w3-bar-item w3-button w3-padding-large">
+                    <Link to="/2" className="w3-bar-item w3-button w3-padding-large">
                         <FontAwesomeIcon size={"4x"} icon={"briefcase"}/>
                         <p>Experience</p>
                     </Link>
-                    <Link to="/education" className="w3-bar-item w3-button w3-padding-large">
+                    <Link to="/3" className="w3-bar-item w3-button w3-padding-large">
                         <FontAwesomeIcon size={"4x"} icon={"graduation-cap"}/>
                         <p>Education</p>
                     </Link>
-                    <Link to="/profiles" className="w3-bar-item w3-button w3-padding-large">
+                    <Link to="/4" className="w3-bar-item w3-button w3-padding-large">
                         <FontAwesomeIcon size={"4x"} icon={"id-card-alt"}/>
                         <p>Profiles</p>
                     </Link>
                 </nav>
                 <div className="w3-padding-large" id="main">
                     <Switch>
-                        <Route exact path="/">
+                        <Redirect exact from="/" to="0" />
+                        <Route path="/0">
                             <Home/>
                         </Route>
-                        <Route path="/skills">
+                        <Route path="/1">
                             <Skills/>
                         </Route>
-                        <Route path="/experience">
+                        <Route path="/2">
                             <Experience/>
                         </Route>
-                        <Route path="/education">
+                        <Route path="/3">
                             <Education/>
                         </Route>
-                        <Route path="/profiles">
+                        <Route path="/4">
                             <Profiles/>
                         </Route>
                     </Switch>
