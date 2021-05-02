@@ -9,8 +9,8 @@ export default function Education() {
             <Divider style={{width: "300px"}}/>
             <div style={{paddingTop: "10px"}}>
                 {
-                    educations.map((education) => (
-                        <Card style={{marginBottom: "10px"}}>
+                    educations.map((education,index) => (
+                        <Card key={index} style={{marginBottom: "10px"}}>
                             <CardHeader
                                 title={education.course + "  /  " + education.institute + " , " + education.location }
                                 subheader={education.duration.from + "  -  " + education.duration.to}

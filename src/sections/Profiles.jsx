@@ -10,8 +10,8 @@ export default function Profiles() {
             <Divider style={{width: "300px"}}/>
             <div style={{paddingTop: "10px"}}>
                 {
-                    profiles.map((profile) => (
-                        <Card style={{marginBottom: "5px"}}>
+                    profiles.map((profile, index) => (
+                        <Card key={index} style={{marginBottom: "5px"}}>
                             <CardHeader
                                 avatar={<FontAwesomeIcon size={"4x"} icon={profile.avatar}/>}
                                 title={profile.title}

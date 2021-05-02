@@ -17,16 +17,16 @@ export default function Experience() {
             <h2>Experience</h2>
             <Divider style={{width: "300px"}}/>
             <div style={{paddingTop: "10px"}}>
-                {experiences.map((experience) => (
-                    <Card style={{marginBottom: "10px"}}>
+                {experiences.map((experience, index) => (
+                    <Card key={index} style={{marginBottom: "10px"}}>
                         <CardHeader
                             title={experience.post}
                             subheader={experience.org + " , " + experience.location}
                         />
                         <CardContent>
                             {
-                                experience.projects.map((project) => (
-                                    <Accordion>
+                                experience.projects.map((project, index1) => (
+                                    <Accordion key={index1}>
                                         <AccordionSummary>
                                             <CardHeader
                                                 title={project.title}
@@ -45,8 +45,8 @@ export default function Experience() {
                                                     {"Technologies Used : " + project.technologies.join(' | ')}
                                                 </Typography>
                                                 <Typography>{"Major Contributions : "}</Typography>
-                                                {project.contributions.map((contribution) => (
-                                                    <ListItem>
+                                                {project.contributions.map((contribution, index2) => (
+                                                    <ListItem key={index2}>
                                                         <Typography>{"->  " + contribution}</Typography>
                                                     </ListItem>
                                                 ))}
