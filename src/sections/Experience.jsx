@@ -13,7 +13,7 @@ import {experiences} from "../data/Experience";
 export default function Experience() {
 
     return (
-        <div>
+        <div id="2">
             <h2>Experience</h2>
             <Divider style={{width: "300px"}}/>
             <div style={{paddingTop: "10px"}}>

@@ -5,7 +5,7 @@ import {profiles} from "../data/Profiles";
 export default function Profiles() {
 
     return (
-        <div>
+        <div id="4">
             <h2>Profiles</h2>
             <Divider style={{width: "300px"}}/>
             <div style={{paddingTop: "10px"}}>

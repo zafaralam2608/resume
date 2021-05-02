@@ -4,7 +4,7 @@ import {educations} from "../data/Education";
 export default function Education() {
 
     return (
-        <div>
+        <div id="3">
             <h2>Education</h2>
             <Divider style={{width: "300px"}}/>
             <div style={{paddingTop: "10px"}}>

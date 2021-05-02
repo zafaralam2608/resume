@@ -4,7 +4,7 @@ import {skills} from "../data/Skills";
 export default function Skills() {
 
     return (
-        <div>
+        <div id="1">
             <h2>Technical Skills</h2>
             <Divider style={{width: "300px"}}/>
             <div style={{paddingTop: "10px"}}>
