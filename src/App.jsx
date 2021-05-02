@@ -5,12 +5,16 @@ import Experience from "./sections/Experience";
 import Education from "./sections/Education";
 import Profiles from "./sections/Profiles";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {commons} from "./data/Common";
 
 export default function App() {
+
+    document.title = commons.appTitle;
+
     return (
         <div>
             <nav className="w3-sidebar w3-bar-block w3-small w3-center">
-                <a href="#" className="w3-bar-item w3-button w3-padding-large">
+                <a href="#0" className="w3-bar-item w3-button w3-padding-large">
                     <FontAwesomeIcon size={"4x"} icon={"home"}/>
                     <p>Home</p>
                 </a>
