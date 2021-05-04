@@ -6,6 +6,7 @@ import Education from "./sections/Education";
 import Profiles from "./sections/Profiles";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {home} from "./data/Home";
+import {ScrollToTop} from "./components/ScrollToTop";
 
 export default function App() {
 
@@ -41,6 +42,7 @@ export default function App() {
                 <Experience/>
                 <Education/>
                 <Profiles/>
+                <ScrollToTop/>
             </div>
         </div>
     );
