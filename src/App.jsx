@@ -5,11 +5,11 @@ import Experience from "./sections/Experience";
 import Education from "./sections/Education";
 import Profiles from "./sections/Profiles";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {commons} from "./data/Common";
+import {home} from "./data/Home";
 
 export default function App() {
 
-    document.title = commons.appTitle;
+    document.title = home.name;
 
     return (
         <div>
@@ -35,7 +35,7 @@ export default function App() {
                     <p>Profiles</p>
                 </a>
             </nav>
-            <div className="w3-padding-large" id="main">
+            <div className="w3-padding-large" id="main" style={{display: "flex", flexDirection: "column"}}>
                 <Home/>
                 <Skills/>
                 <Experience/>

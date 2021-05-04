@@ -7,13 +7,13 @@ export default function Skills() {
         <div id="1">
             <h2>Technical Skills</h2>
             <Divider style={{width: "300px"}}/>
-            <div style={{paddingTop: "10px"}}>
+            <div style={{paddingTop: "30px"}}>
                 {skills.map((skill, index) => (
                     <Card key={index} style={{marginBottom: "10px"}}>
                         <CardHeader title={skill.section}/>
                         <CardContent>
                             {skill.items.map((item, index2) => (
-                                <CardHeader key={index2} className={"w3-quarter"}
+                                <CardHeader key={index2} className={"w3-quarter"} style={{paddingBottom: "20px"}}
                                             avatar={<Avatar>{item.avatar}</Avatar>}
                                             title={item.title}
                                             subheader={item.experience.year + "y " + item.experience.month + "m"}
