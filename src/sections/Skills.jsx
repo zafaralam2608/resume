@@ -1,7 +1,9 @@
 import {Avatar, Card, CardContent, CardHeader, Divider} from "@material-ui/core";
 import {skills} from "../data/Skills";
+import {useStyles} from "../constants/Styles";
 
 export default function Skills() {
+    const styles = useStyles();
 
     return (
         <div id="1">
@@ -11,9 +13,9 @@ export default function Skills() {
                 {skills.map((skill, index) => (
                     <Card key={index} style={{marginBottom: "10px"}}>
                         <CardHeader title={skill.section}/>
-                        <CardContent>
+                        <CardContent style={{display: "flex", flexWrap: "wrap"}}>
                             {skill.items.map((item, index2) => (
-                                <CardHeader key={index2} className={"w3-quarter"} style={{paddingBottom: "20px"}}
+                                <CardHeader key={index2} className={styles.quarterCard}
                                             avatar={<Avatar>{item.avatar}</Avatar>}
                                             title={item.title}
                                             subheader={item.experience.year + "y " + item.experience.month + "m"}

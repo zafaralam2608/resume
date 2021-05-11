@@ -25,7 +25,7 @@ export function ScrollToTop() {
             ?
             <Zoom in={true} style={{position: "fixed", right: "30px", bottom: "30px"}}>
                 <div onClick={handleClick} role="presentation">
-                    <Fab size="small">
+                    <Fab size="medium">
                         <KeyboardArrowUp/>
                     </Fab>
                 </div>
