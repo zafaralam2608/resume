@@ -23,10 +23,11 @@ export function ScrollToTop() {
     return (
         visible
             ?
-            <Zoom in={true} style={{position: "fixed", right: "30px", bottom: "30px"}}>
+            <Zoom in={true} style={{position: "fixed", left: "calc(50% - 62px)", bottom: "30px"}}>
                 <div onClick={handleClick} role="presentation">
-                    <Fab size="medium">
+                    <Fab size={"medium"} variant={"extended"}>
                         <KeyboardArrowUp/>
+                        Go to top
                     </Fab>
                 </div>
             </Zoom>

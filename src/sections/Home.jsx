@@ -40,7 +40,7 @@ export default function Home() {
                     <Avatar style={{height: "250px", width: "250px"}}
                             src={display}
                             alt={"Profile image"}/>
-                    <Fab variant="extended" href={home.link}>
+                    <Fab variant="extended" href={home.link} style={{marginTop: "10px"}}>
                         <GetAppSharpIcon/>
                         Download Resume
                     </Fab>
