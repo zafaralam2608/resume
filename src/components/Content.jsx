@@ -16,7 +16,9 @@ export default function Content() {
             <Experience/>
             <Education/>
             <Profiles/>
-            <ScrollToTop/>
+            <div style={{height: "60px"}}>
+                <ScrollToTop/>
+            </div>
         </main>
     );
 }
