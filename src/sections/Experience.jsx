@@ -9,6 +9,7 @@ import {
     Typography
 } from "@material-ui/core";
 import {experiences} from "../data/Experience";
+import {ExpandMore} from "@material-ui/icons";
 
 export default function Experience() {
 
@@ -27,7 +28,9 @@ export default function Experience() {
                             {
                                 experience.projects.map((project, index1) => (
                                     <Accordion key={index1}>
-                                        <AccordionSummary>
+                                        <AccordionSummary
+                                            expandIcon={<ExpandMore/>}
+                                        >
                                             <CardHeader
                                                 title={project.title}
                                                 subheader={project.duration.from + " - " + project.duration.to}

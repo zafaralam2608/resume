@@ -111,6 +111,17 @@ export const skills =
             items:
                 [
                     {
+                        title: "Maven",
+                        avatar: "",
+                        experience:
+                            {
+                                year: "",
+                                month: ""
+                            },
+                        achievements:
+                            []
+                    },
+                    {
                         title: "Git",
                         avatar: "",
                         experience:
@@ -193,17 +204,6 @@ export const skills =
             section: "Other",
             items:
                 [
-                    {
-                        title: "Maven",
-                        avatar: "",
-                        experience:
-                            {
-                                year: "",
-                                month: ""
-                            },
-                        achievements:
-                            []
-                    },
                     {
                         title: "JUnit",
                         avatar: "",
