@@ -1,4 +1,4 @@
-export const educations =
+export const educationItems =
     [
         {
             course: "Bachelor of Technology",

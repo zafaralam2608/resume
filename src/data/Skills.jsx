@@ -1,4 +1,4 @@
-export const skills =
+export const skillItems =
     [
         {
             section: "Programming Language",
@@ -7,24 +7,20 @@ export const skills =
                     {
                         title: "Java",
                         avatar: "J",
-                        experience:
+                        timeline:
                             {
-                                year: "3",
-                                month: "9"
-                            },
-                        achievements:
-                            []
+                                startTimeline: "1.1",
+                                endTimeline: ""
+                            }
                     },
                     {
                         title: "JavaScript",
                         avatar: "JS",
-                        experience:
+                        timeline:
                             {
-                                year: "1",
-                                month: "0"
-                            },
-                        achievements:
-                            []
+                                startTimeline: "2.2",
+                                endTimeline: ""
+                            }
                     }
                 ]
         },
@@ -35,24 +31,20 @@ export const skills =
                     {
                         title: "Spring",
                         avatar: "S",
-                        experience:
+                        timeline:
                             {
-                                year: "3",
-                                month: "9"
-                            },
-                        achievements:
-                            []
+                                startTimeline: "1.2",
+                                endTimeline: ""
+                            }
                     },
                     {
                         title: "Spring Boot",
                         avatar: "SB",
-                        experience:
+                        timeline:
                             {
-                                year: "3",
-                                month: "9"
-                            },
-                        achievements:
-                            []
+                                startTimeline: "1.2",
+                                endTimeline: ""
+                            }
                     }
                 ]
         },
@@ -63,46 +55,38 @@ export const skills =
                     {
                         title: "Oracle",
                         avatar: "O",
-                        experience:
+                        timeline:
                             {
-                                year: "3",
-                                month: "9"
-                            },
-                        achievements:
-                            []
+                                startTimeline: "1.1",
+                                endTimeline: "2.1"
+                            }
                     },
                     {
                         title: "SQLServer",
                         avatar: "SQL",
-                        experience:
+                        timeline:
                             {
-                                year: "3",
-                                month: "9"
-                            },
-                        achievements:
-                            []
+                                startTimeline: "1.1",
+                                endTimeline: "2.1"
+                            }
                     },
                     {
                         title: "Mysql",
                         avatar: "M",
-                        experience:
+                        timeline:
                             {
-                                year: "1",
-                                month: "0"
-                            },
-                        achievements:
-                            []
+                                startTimeline: "2.2",
+                                endTimeline: ""
+                            }
                     },
                     {
                         title: "MariaDB",
                         avatar: "MDB",
-                        experience:
+                        timeline:
                             {
-                                year: "1",
-                                month: "0"
-                            },
-                        achievements:
-                            []
+                                startTimeline: "2.2",
+                                endTimeline: ""
+                            }
                     }
                 ]
         },
@@ -113,90 +97,74 @@ export const skills =
                     {
                         title: "Maven",
                         avatar: "",
-                        experience:
+                        timeline:
                             {
-                                year: "",
-                                month: ""
-                            },
-                        achievements:
-                            []
+                                startTimeline: "1.1",
+                                endTimeline: ""
+                            }
                     },
                     {
                         title: "Git",
                         avatar: "",
-                        experience:
+                        timeline:
                             {
-                                year: "",
-                                month: ""
-                            },
-                        achievements:
-                            []
+                                startTimeline: "1.1",
+                                endTimeline: ""
+                            }
                     },
                     {
                         title: "Install4j",
                         avatar: "",
-                        experience:
+                        timeline:
                             {
-                                year: "",
-                                month: ""
-                            },
-                        achievements:
-                            []
+                                startTimeline: "2.2",
+                                endTimeline: ""
+                            }
                     },
                     {
                         title: "Install Anywhere",
                         avatar: "",
-                        experience:
+                        timeline:
                             {
-                                year: "",
-                                month: ""
-                            },
-                        achievements:
-                            []
+                                startTimeline: "2.1",
+                                endTimeline: "2.2"
+                            }
                     },
                     {
                         title: "Jenkins",
                         avatar: "",
-                        experience:
+                        timeline:
                             {
-                                year: "",
-                                month: ""
-                            },
-                        achievements:
-                            []
+                                startTimeline: "2.1",
+                                endTimeline: ""
+                            }
                     },
                     {
                         title: "SonarQube",
                         avatar: "",
-                        experience:
+                        timeline:
                             {
-                                year: "",
-                                month: ""
-                            },
-                        achievements:
-                            []
+                                startTimeline: "1.1",
+                                endTimeline: ""
+                            }
                     },
                     {
                         title: "JIRA",
                         avatar: "",
-                        experience:
+                        timeline:
                             {
-                                year: "",
-                                month: ""
-                            },
-                        achievements:
-                            []
+                                startTimeline: "1.1",
+                                endTimeline: ""
+                            }
                     },
                     {
                         title: "Crucible",
                         avatar: "",
-                        experience:
+                        timeline:
                             {
-                                year: "",
-                                month: ""
-                            },
-                        achievements:
-                            []
+                                startTimeline: "1.1",
+                                endTimeline: ""
+                            }
                     }
                 ]
         },
@@ -207,68 +175,56 @@ export const skills =
                     {
                         title: "JUnit",
                         avatar: "",
-                        experience:
+                        timeline:
                             {
-                                year: "",
-                                month: ""
-                            },
-                        achievements:
-                            []
+                                startTimeline: "1.2",
+                                endTimeline: ""
+                            }
                     },
                     {
                         title: "Tomcat",
                         avatar: "",
-                        experience:
+                        timeline:
                             {
-                                year: "",
-                                month: ""
-                            },
-                        achievements:
-                            []
+                                startTimeline: "1.1",
+                                endTimeline: "2.1"
+                            }
                     },
                     {
                         title: "ActiveMQ",
                         avatar: "",
-                        experience:
+                        timeline:
                             {
-                                year: "",
-                                month: ""
-                            },
-                        achievements:
-                            []
+                                startTimeline: "1.1",
+                                endTimeline: ""
+                            }
                     },
                     {
                         title: "REST",
                         avatar: "",
-                        experience:
+                        timeline:
                             {
-                                year: "",
-                                month: ""
-                            },
-                        achievements:
-                            []
+                                startTimeline: "1.2",
+                                endTimeline: ""
+                            }
                     },
                     {
                         title: "NodeJS",
                         avatar: "",
-                        experience:
+                        timeline:
                             {
-                                year: "",
-                                month: ""
-                            },
-                        achievements:
-                            []
+                                startTimeline: "2.2",
+                                endTimeline: ""
+                            }
                     },
                     {
                         title: "ReactJS",
                         avatar: "",
-                        experience:
+                        timeline:
                             {
-                                year: "",
-                                month: ""
-                            },
-                        achievements:
-                            []
+                                startTimeline: "2.2",
+                                endTimeline: ""
+                            }
                     }
                 ]
         }

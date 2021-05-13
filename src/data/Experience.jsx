@@ -1,4 +1,4 @@
-export const experiences =
+export const experienceItems =
     [
         {
             post: "Senior Software Engineer",
@@ -9,11 +9,7 @@ export const experiences =
                     {
                         title: "Financial Exchange",
                         role: "Full Stack Developer",
-                        duration:
-                            {
-                                from: "Apr 2020",
-                                to: "Present"
-                            },
+                        timeline: "2.2",
                         technologies:
                             [
                                 "Spring Boot",
@@ -34,11 +30,7 @@ export const experiences =
                     {
                         title: "Secure Client",
                         role: "Java Developer",
-                        duration:
-                            {
-                                from: "Jan 2020",
-                                to: "Mar 2020"
-                            },
+                        timeline: "2.1",
                         technologies:
                             [
                                 "Java",
@@ -65,11 +57,7 @@ export const experiences =
                     {
                         title: "Electronic Journal",
                         role: "Java Developer",
-                        duration:
-                            {
-                                from: "Jan 2019",
-                                to: "Dec 2019"
-                            },
+                        timeline: "1.3",
                         technologies:
                             [
                                 "Spring MVC",
@@ -90,11 +78,7 @@ export const experiences =
                     {
                         title: "APTRA Vision 4.X",
                         role: "Java Developer",
-                        duration:
-                            {
-                                from: "Jan 2018",
-                                to: "Dec 2018"
-                            },
+                        timeline: "1.2",
                         technologies:
                             [
                                 "Spring MVC",
@@ -115,11 +99,7 @@ export const experiences =
                     {
                         title: "APTRA Vision 2.X",
                         role: "Java Developer",
-                        duration:
-                            {
-                                from: "Jul 2017",
-                                to: "Dec 2017"
-                            },
+                        timeline: "1.1",
                         technologies:
                             [
                                 "Java",

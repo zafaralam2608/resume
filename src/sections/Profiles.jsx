@@ -1,6 +1,6 @@
 import {Button, Card, CardHeader, Divider} from "@material-ui/core";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {profiles} from "../data/Profiles";
+import {profileItems} from "../data/Profiles";
 
 export default function Profiles() {
 
@@ -10,7 +10,7 @@ export default function Profiles() {
             <Divider style={{width: "300px"}}/>
             <div style={{paddingTop: "10px"}}>
                 {
-                    profiles.map((profile, index) => (
+                    profileItems.map((profile, index) => (
                         <Card key={index} style={{marginBottom: "5px"}}>
                             <CardHeader
                                 avatar={<FontAwesomeIcon size={"4x"} icon={profile.avatar}/>}

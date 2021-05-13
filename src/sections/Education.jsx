@@ -1,5 +1,5 @@
 import {Card, CardContent, CardHeader, Divider} from "@material-ui/core";
-import {educations} from "../data/Education";
+import {educationItems} from "../data/Education";
 
 export default function Education() {
 
@@ -9,7 +9,7 @@ export default function Education() {
             <Divider style={{width: "300px"}}/>
             <div style={{paddingTop: "10px"}}>
                 {
-                    educations.map((education,index) => (
+                    educationItems.map((education,index) => (
                         <Card key={index} style={{marginBottom: "10px"}}>
                             <CardHeader
                                 title={education.course + "  /  " + education.institute + " , " + education.location }
