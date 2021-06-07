@@ -33,7 +33,7 @@ export const skillItems =
                         avatar: "S",
                         timeline:
                             {
-                                startTimeline: "1.2",
+                                startTimeline: "1.1",
                                 endTimeline: ""
                             }
                     },
@@ -42,7 +42,7 @@ export const skillItems =
                         avatar: "SB",
                         timeline:
                             {
-                                startTimeline: "1.2",
+                                startTimeline: "1.1",
                                 endTimeline: ""
                             }
                     }
@@ -96,7 +96,7 @@ export const skillItems =
                 [
                     {
                         title: "Maven",
-                        avatar: "",
+                        avatar: "M",
                         timeline:
                             {
                                 startTimeline: "1.1",
@@ -105,7 +105,7 @@ export const skillItems =
                     },
                     {
                         title: "Git",
-                        avatar: "",
+                        avatar: "G",
                         timeline:
                             {
                                 startTimeline: "1.1",
@@ -114,7 +114,7 @@ export const skillItems =
                     },
                     {
                         title: "Install4j",
-                        avatar: "",
+                        avatar: "I4",
                         timeline:
                             {
                                 startTimeline: "2.2",
@@ -123,7 +123,7 @@ export const skillItems =
                     },
                     {
                         title: "Install Anywhere",
-                        avatar: "",
+                        avatar: "IA",
                         timeline:
                             {
                                 startTimeline: "2.1",
@@ -132,16 +132,16 @@ export const skillItems =
                     },
                     {
                         title: "Jenkins",
-                        avatar: "",
+                        avatar: "J",
                         timeline:
                             {
-                                startTimeline: "2.1",
+                                startTimeline: "2.2",
                                 endTimeline: ""
                             }
                     },
                     {
                         title: "SonarQube",
-                        avatar: "",
+                        avatar: "SQ",
                         timeline:
                             {
                                 startTimeline: "1.1",
@@ -150,7 +150,7 @@ export const skillItems =
                     },
                     {
                         title: "JIRA",
-                        avatar: "",
+                        avatar: "J",
                         timeline:
                             {
                                 startTimeline: "1.1",
@@ -159,7 +159,7 @@ export const skillItems =
                     },
                     {
                         title: "Crucible",
-                        avatar: "",
+                        avatar: "C",
                         timeline:
                             {
                                 startTimeline: "1.1",
@@ -174,7 +174,7 @@ export const skillItems =
                 [
                     {
                         title: "JUnit",
-                        avatar: "",
+                        avatar: "JU",
                         timeline:
                             {
                                 startTimeline: "1.2",
@@ -183,7 +183,7 @@ export const skillItems =
                     },
                     {
                         title: "Tomcat",
-                        avatar: "",
+                        avatar: "T",
                         timeline:
                             {
                                 startTimeline: "1.1",
@@ -192,7 +192,7 @@ export const skillItems =
                     },
                     {
                         title: "ActiveMQ",
-                        avatar: "",
+                        avatar: "AMQ",
                         timeline:
                             {
                                 startTimeline: "1.1",
@@ -201,16 +201,16 @@ export const skillItems =
                     },
                     {
                         title: "REST",
-                        avatar: "",
+                        avatar: "REST",
                         timeline:
                             {
-                                startTimeline: "1.2",
+                                startTimeline: "1.1",
                                 endTimeline: ""
                             }
                     },
                     {
                         title: "NodeJS",
-                        avatar: "",
+                        avatar: "NJS",
                         timeline:
                             {
                                 startTimeline: "2.2",
@@ -219,7 +219,7 @@ export const skillItems =
                     },
                     {
                         title: "ReactJS",
-                        avatar: "",
+                        avatar: "RJS",
                         timeline:
                             {
                                 startTimeline: "2.2",

@@ -103,6 +103,7 @@ export const experienceItems =
                         technologies:
                             [
                                 "Java",
+                                "Spring",
                                 "Maven",
                                 "Flex",
                                 "Tomcat"
