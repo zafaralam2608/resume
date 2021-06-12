@@ -209,15 +209,6 @@ export const skillItems =
                             }
                     },
                     {
-                        title: "NodeJS",
-                        avatar: "NJS",
-                        timeline:
-                            {
-                                startTimeline: "2.2",
-                                endTimeline: ""
-                            }
-                    },
-                    {
                         title: "ReactJS",
                         avatar: "RJS",
                         timeline:

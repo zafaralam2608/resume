@@ -62,9 +62,7 @@ export const experienceItems =
                             [
                                 "Spring MVC",
                                 "Maven",
-                                "AngularJS",
                                 "Tomcat",
-                                "Solr",
                                 "REST"
                             ],
                         description: "A web application module to view ATM transaction records including filtering according to date and user preferences, featuring data display in raw and tabular form.",
@@ -76,20 +74,17 @@ export const experienceItems =
                             ]
                     },
                     {
-                        title: "APTRA Vision 4.X",
+                        title: "Vision 4.X",
                         role: "Java Developer",
                         timeline: "1.2",
                         technologies:
                             [
                                 "Spring MVC",
                                 "Maven",
-                                "AngularJS",
-                                "NodeJS",
                                 "Tomcat",
-                                "Solr",
                                 "REST"
                             ],
-                        description: "Upgraded version of Aptra Vision 2.X developed with Spring MVC and AngularJS",
+                        description: "Upgraded version of Vision 2.X developed with Spring MVC",
                         contributions:
                             [
                                 "Worked in the SCER team providing major product enhancements",
@@ -105,7 +100,6 @@ export const experienceItems =
                                 "Java",
                                 "Spring",
                                 "Maven",
-                                "Flex",
                                 "Tomcat"
                             ],
                         description: "A Web application for control and management of ATMs and their components along with cash flow monitoring and incident management.",
