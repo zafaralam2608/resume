@@ -92,7 +92,7 @@ export const experienceItems =
                             ]
                     },
                     {
-                        title: "APTRA Vision 2.X",
+                        title: "Vision 2.X",
                         role: "Java Developer",
                         timeline: "1.1",
                         technologies:
