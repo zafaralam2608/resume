@@ -23,6 +23,6 @@ export const timelineItems =
         2.2:
             {
                 start: "2020/04",
-                end: ""
+                end: "2021/07"
             },
     }
