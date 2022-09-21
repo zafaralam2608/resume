@@ -1,6 +1,35 @@
 export const experienceItems =
     [
         {
+            post: "Senior Associate - Technology",
+            org: "Synechron",
+            location: "Pune",
+            projects:
+                [
+                    {
+                        title: "Content Encryption Program",
+                        role: "Java Developer",
+                        timeline: "3.1",
+                        technologies:
+                            [
+                                "Spring Boot",
+                                "Maven",
+                                "REST",
+                                "Artemis"
+                            ],
+                        description: " A program comprising of 3 Spring Boot microservices for encryption and decryption of media content files.",
+                        contributions:
+                            [
+                                "Designed and coded 3 microservices from scratch.",
+                                "Coded another library with common code and synced it with the services.",
+                                "Integrated these services with JMS queues.",
+                                "Integrated these services with other products.",
+                                "Maintained code style and checks throughout the project."
+                            ]
+                    },
+                ],
+        },        
+        {
             post: "Senior Software Engineer",
             org: "Sopra Steria",
             location: "Noida",

@@ -8,7 +8,7 @@ export const profileItems =
         {
             title: "LinkedIn",
             avatar: ["fab", "linkedin"],
-            link: "https://www.linkedin.com/in/md-zafar-alam-66606211b"
+            link: "https://www.linkedin.com/in/mdzafaralam/"
         },
         {
             title: "Hacker Rank",
