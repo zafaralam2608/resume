@@ -1,143 +1,153 @@
-export const experienceItems =
-    [
-        {
-            post: "Senior Associate - Technology",
-            org: "Synechron",
-            location: "Pune",
-            projects:
+const experienceItems = [
+  {
+    order: '3',
+    post: 'Senior Associate - Technology',
+    org: 'Synechron',
+    location: 'Pune',
+    projects:
                 [
-                    {
-                        title: "Content Encryption Program",
-                        role: "Java Developer",
-                        timeline: "3.1",
-                        technologies:
+                  {
+                    order: '1',
+                    title: 'Content Encryption Program',
+                    role: 'Java Developer',
+                    timeline: '3.1',
+                    technologies:
                             [
-                                "Spring Boot",
-                                "Maven",
-                                "REST",
-                                "Artemis"
+                              'Spring Boot',
+                              'Maven',
+                              'REST',
+                              'Artemis',
                             ],
-                        description: " A program comprising of 3 Spring Boot microservices for encryption and decryption of media content files.",
-                        contributions:
+                    description: ' A program comprising of 3 Spring Boot microservices for encryption and decryption of media content files.',
+                    contributions:
                             [
-                                "Designed and coded 3 microservices from scratch.",
-                                "Coded another library with common code and synced it with the services.",
-                                "Integrated these services with JMS queues.",
-                                "Integrated these services with other products.",
-                                "Maintained code style and checks throughout the project."
-                            ]
-                    },
+                              'Designed and coded 3 microservices from scratch.',
+                              'Coded another library with common code and synced it with the services.',
+                              'Integrated these services with JMS queues.',
+                              'Integrated these services with other products.',
+                              'Maintained code style and checks throughout the project.',
+                            ],
+                  },
                 ],
-        },        
-        {
-            post: "Senior Software Engineer",
-            org: "Sopra Steria",
-            location: "Noida",
-            projects:
+  },
+  {
+    order: '2',
+    post: 'Senior Software Engineer',
+    org: 'Sopra Steria',
+    location: 'Noida',
+    projects:
                 [
-                    {
-                        title: "Financial Exchange",
-                        role: "Full Stack Developer",
-                        timeline: "2.2",
-                        technologies:
+                  {
+                    order: '2',
+                    title: 'Financial Exchange',
+                    role: 'Full Stack Developer',
+                    timeline: '2.2',
+                    technologies:
                             [
-                                "Spring Boot",
-                                "ReactJS",
-                                "Maven",
-                                "REST",
-                                "Install4j"
+                              'Spring Boot',
+                              'ReactJS',
+                              'Maven',
+                              'REST',
+                              'Install4j',
                             ],
-                        description: "A product with integration of multiple spring boot web applications for signing, validation and approval of payments and transactions based on access and scenarios.",
-                        contributions:
+                    description: 'A product with integration of multiple spring boot web applications for signing, validation and approval of payments and transactions based on access and scenarios.',
+                    contributions:
                             [
-                                "Application development with Java, Spring boot & ReactJS",
-                                "Configured and managed CI/CD setup on Jenkins",
-                                "Contributed in migrating user interface to HTML5 UI with ReactJS",
-                                "Added support for latest database providers in the product",
-                            ]
-                    },
-                    {
-                        title: "Secure Client",
-                        role: "Java Developer",
-                        timeline: "2.1",
-                        technologies:
-                            [
-                                "Java",
-                                "Maven",
-                                "InstallAnywhere"
+                              'Application development with Java, Spring boot & ReactJS',
+                              'Configured and managed CI/CD setup on Jenkins',
+                              'Contributed in migrating user interface to HTML5 UI with ReactJS',
+                              'Added support for latest database providers in the product',
                             ],
-                        description: "Java based desktop application for file transfer, supporting multiple types of operating systems and file transfer protocols.",
-                        contributions:
+                  },
+                  {
+                    order: '1',
+                    title: 'Secure Client',
+                    role: 'Java Developer',
+                    timeline: '2.1',
+                    technologies:
                             [
-                                "Upgraded application from JDK 8 to JDK 11",
-                                "Added support for newer operating systems",
-                                "Implemented new features requested by customers",
-                                "Fixed multiple bugs and security issues"
-                            ]
-                    }
-                ]
-        },
-        {
-            post: "Software Engineer",
-            org: "Infogain India Pvt Ltd",
-            location: "Noida",
-            projects:
+                              'Java',
+                              'Maven',
+                              'InstallAnywhere',
+                            ],
+                    description: 'Java based desktop application for file transfer, supporting multiple types of operating systems and file transfer protocols.',
+                    contributions:
+                            [
+                              'Upgraded application from JDK 8 to JDK 11',
+                              'Added support for newer operating systems',
+                              'Implemented new features requested by customers',
+                              'Fixed multiple bugs and security issues',
+                            ],
+                  },
+                ],
+  },
+  {
+    order: '1',
+    post: 'Software Engineer',
+    org: 'Infogain India Pvt Ltd',
+    location: 'Noida',
+    projects:
                 [
-                    {
-                        title: "Electronic Journal",
-                        role: "Java Developer",
-                        timeline: "1.3",
-                        technologies:
+                  {
+                    order: '3',
+                    title: 'Electronic Journal',
+                    role: 'Java Developer',
+                    timeline: '1.3',
+                    technologies:
                             [
-                                "Spring MVC",
-                                "Maven",
-                                "Tomcat",
-                                "REST"
+                              'Spring MVC',
+                              'Maven',
+                              'Tomcat',
+                              'REST',
                             ],
-                        description: "A web application module to view ATM transaction records including filtering according to date and user preferences, featuring data display in raw and tabular form.",
-                        contributions:
+                    description: 'A web application module to view ATM transaction records including filtering according to date and user preferences, featuring data display in raw and tabular form.',
+                    contributions:
                             [
-                                "Resolved bugs and implemented enhancements in the module",
-                                "Designed and injected new search component which redirects to EJ module giving search results",
-                                "Provided 24x7 on call support to client for priority production issues"
-                            ]
-                    },
-                    {
-                        title: "Vision 4.X",
-                        role: "Java Developer",
-                        timeline: "1.2",
-                        technologies:
-                            [
-                                "Spring MVC",
-                                "Maven",
-                                "Tomcat",
-                                "REST"
+                              'Resolved bugs and implemented enhancements in the module',
+                              'Designed and injected new search component which redirects to EJ module giving search results',
+                              'Provided 24x7 on call support to client for priority production issues',
                             ],
-                        description: "Upgraded version of Vision 2.X developed with Spring MVC",
-                        contributions:
+                  },
+                  {
+                    order: '2',
+                    title: 'Vision 4.X',
+                    role: 'Java Developer',
+                    timeline: '1.2',
+                    technologies:
                             [
-                                "Worked in the SCER team providing major product enhancements",
-                                "Worked on migration of product to Spring framework"
-                            ]
-                    },
-                    {
-                        title: "Vision 2.X",
-                        role: "Java Developer",
-                        timeline: "1.1",
-                        technologies:
-                            [
-                                "Java",
-                                "Spring",
-                                "Maven",
-                                "Tomcat"
+                              'Spring MVC',
+                              'Maven',
+                              'Tomcat',
+                              'REST',
                             ],
-                        description: "A Web application for control and management of ATMs and their components along with cash flow monitoring and incident management.",
-                        contributions:
+                    description: 'Upgraded version of Vision 2.X developed with Spring MVC',
+                    contributions:
                             [
-                                "Fixing bugs and resolving product related production issues",
-                                "Product enhancements according to client requirements"
-                            ]
-                    }
-                ]
-        }
-    ]
+                              'Worked in the SCER team providing major product enhancements',
+                              'Worked on migration of product to Spring framework',
+                            ],
+                  },
+                  {
+                    order: '1',
+                    title: 'Vision 2.X',
+                    role: 'Java Developer',
+                    timeline: '1.1',
+                    technologies:
+                            [
+                              'Java',
+                              'Spring',
+                              'Maven',
+                              'Tomcat',
+                            ],
+                    description: 'A Web application for control and management of ATMs and their components along with cash flow monitoring and incident management.',
+                    contributions:
+                            [
+                              'Fixing bugs and resolving product related production issues',
+                              'Product enhancements according to client requirements',
+                            ],
+                  },
+                ],
+  },
+];
+
+export default experienceItems;
