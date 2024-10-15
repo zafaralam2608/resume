@@ -1,18 +1,17 @@
+import { ThemeProvider } from '@emotion/react';
+import { CssBaseline } from '@mui/material';
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
 import App from './App';
-import {createMuiTheme, CssBaseline, ThemeProvider} from "@material-ui/core";
+import { darkTheme } from './constant/theme';
 
-const theme = createMuiTheme({
-    palette: {
-        type: "dark",
-    }
-});
+const element = document.getElementById('root')
 
-ReactDOM.render(
-    <ThemeProvider theme={theme}>
-        <CssBaseline />
-        <App />
-    </ThemeProvider>,
-    document.getElementById('root')
-);
+const root = createRoot(element)
+
+root.render(
+    <ThemeProvider theme={darkTheme}>
+    <CssBaseline />
+    <App />
+</ThemeProvider>
+)

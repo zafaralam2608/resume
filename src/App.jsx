@@ -1,6 +1,5 @@
-import {home} from "./data/Home";
 import Content from "./components/Content";
-import Sidebar from "./components/Sidebar";
+import { home } from "./data/Home";
 
 export default function App() {
 
@@ -8,7 +7,6 @@ export default function App() {
 
     return (
         <div style={{display: "flex", flexDirection: "row"}}>
-            <Sidebar/>
             <Content/>
         </div>
     );
