@@ -1,12 +1,9 @@
 {
-  "name": "react-frontend-dev-portfolio",
-  "homepage": ".",
-  "version": "0.1.0",
+  "homepage": "https://zafaralam2608.github.io/",
+  "name": "zafaralam2608.github.io",
+  "version": "4.0.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^6.6.3",
-    "@testing-library/react": "^16.2.0",
-    "@testing-library/user-event": "^14.6.1",
     "bootstrap": "^5.3.3",
     "jquery": "^3.7.1",
     "react": "^19.0.0",
