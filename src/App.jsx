@@ -1,15 +1,20 @@
-import {home} from "./data/Home";
-import Content from "./components/Content";
-import Sidebar from "./components/Sidebar";
+import React from "react";
+import "./App.scss";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import About from "./components/About";
+import Skills from "./components/Skills";
+import Experience from "./components/Experience";
 
 export default function App() {
 
-    document.title = home.name;
-
-    return (
-        <div style={{display: "flex", flexDirection: "row"}}>
-            <Sidebar/>
-            <Content/>
-        </div>
-    );
+  return (
+    <div>
+      <Header/>
+      <About/>
+      <Skills/>
+      <Experience/>
+      <Footer/>
+    </div>
+  );
 }
