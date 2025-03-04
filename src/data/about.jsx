@@ -14,8 +14,18 @@ const about = {
     },
     {
       "name": "linkedin",
-      "url": "https://www.linkedin.com/in/mdzafaralam/",
+      "url": "https://www.linkedin.com/in/mdzafaralam",
       "class": "fab fa-linkedin"
+    },
+    {
+      "name": "hackerrank",
+      "url": "https://www.hackerrank.com/zafaralam2608",
+      "class": "fab fa-hackerrank"
+    },
+    {
+      "name": "leetcode",
+      "url": "https://leetcode.com/u/zafaralam2608/",
+      "class": "fab fa-font-awesome"
     }
   ],
   "basicInfo": {
