@@ -27,6 +27,60 @@ const about = {
       "skills": "Skills",
       "experience": "Experience"
     }
+  },
+  "skills": {
+    "icons": [
+      {
+        "name": "Java",
+        "class": "devicon-java-plain",
+        "level": "65"
+      },
+      {
+        "name": "Spring",
+        "class": "devicon-spring-plain",
+        "level": "65"
+      },
+      {
+        "name": "Hibernate",
+        "class": "devicon-hibernate-plain",
+        "level": "65"
+      },
+      {
+        "name": "AWS",
+        "class": "devicon-amazonwebservices-plain",
+        "level": "65"
+      },
+      {
+        "name": "JavaScript",
+        "class": "devicon-javascript-plain",
+        "level": "70"
+      },
+      {
+        "name": "React",
+        "class": "devicon-react-plain",
+        "level": "70"
+      },
+      {
+        "name": "Redux",
+        "class": "devicon-redux-plain",
+        "level": "70"
+      },
+      {
+        "name": "TypeScript",
+        "class": "devicon-typescript-plain",
+        "level": "90"
+      },
+      {
+        "name": "HTML 5",
+        "class": "devicon-html5-plain",
+        "level": "95"
+      },
+      {
+        "name": "CSS 3",
+        "class": "devicon-css3-plain",
+        "level": "95"
+      }
+    ]
   }
 };
 
