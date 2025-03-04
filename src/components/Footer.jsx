@@ -1,7 +1,7 @@
 import React from "react";
 import about from "../data/about";
 
-export default function () {
+export default function Footer () {
   const networks = about.social.map(function (network) {
     return (
       <span key={network.name} className="m-4">
