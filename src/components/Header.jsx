@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import Typical from "react-typical";
 import Switch from "react-switch";
-import {about} from "../data/About";
+import {about} from "../data/about";
 
 export default function Header() {
   const [checked, setChecked] = useState(false);
